@@ -161,3 +161,9 @@ img {
       background: #f4f4f4; }
     #home-b .stats div:nth-child(even) {
       background: #ccc; }
+
+#home-c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center; }
