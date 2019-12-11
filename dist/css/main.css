@@ -249,6 +249,18 @@ img {
   color: #ffbc00;
   margin: 1rem; }
 
+#about-b .progress {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 4px;
+  margin-bottom: 0.7rem; }
+  #about-b .progress div {
+    height: 100%;
+    color: #fff;
+    background: #ffbc00;
+    text-align: center; }
+
 #main-footer {
   background: #333;
   color: #fff;
