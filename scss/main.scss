@@ -93,8 +93,11 @@ img {
   }
 
   // header inner
-  // &-inner {
-  // }
+  &-inner {
+    background: $bg-image no-repeat 10% 39% / cover;
+    height: 5.5rem;
+    border-bottom: 3px solid $main-color;
+  }
 }
 
 // Home Section
