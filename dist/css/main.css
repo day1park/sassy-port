@@ -289,7 +289,11 @@ img {
   width: 75px;
   height: 110px;
   border-radius: 50%;
-  margin-right: 0.5rem; }
+  margin-right: 0.5rem;
+  transition: all 0.7s; }
+  #about-d img:hover {
+    width: 100px;
+    height: 150px; }
 
 #main-footer {
   background: #333;
