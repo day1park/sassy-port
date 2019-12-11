@@ -288,7 +288,7 @@ img {
 #about-d img {
   width: 75px;
   height: 110px;
-  border-radius: 50%;
+  border-radius: 25%;
   margin-right: 0.5rem;
   transition: all 0.7s; }
   #about-d img:hover {
