@@ -142,7 +142,7 @@ img {
       border-color: #ffbc00; }
 
 #header-home {
-  background: url("../img/items/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -153,7 +153,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/items/showcase.jpg") no-repeat 10% 39%/cover;
+  background: url("../img/showcase.jpg") no-repeat 10% 39%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }
 
