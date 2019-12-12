@@ -386,7 +386,10 @@ img {
     grid-area: message;
     height: 130px; }
   #contact-a .text-fields .text-input {
-    padding: 0.5rem 1rem; }
+    padding: 0.7rem 1rem; }
+
+#contact-a button[type="submit"] {
+  width: 50%; }
 
 #main-footer {
   background: #333;

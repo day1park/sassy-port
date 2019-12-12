@@ -341,8 +341,12 @@ img {
       }
 
       .text-input {
-        padding: 0.5rem 1rem;
+        padding: 0.7rem 1rem;
       }
+    }
+
+    button[type="submit"] {
+      width: 50%;
     }
   }
 }
