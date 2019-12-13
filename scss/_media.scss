@@ -41,6 +41,7 @@
   #home-b .stats,
   #home-c .process,
   #about-d .testimonials,
+  #contact-b .contact-info,
   .items {
     grid-template-columns: 1fr;
   }
@@ -91,6 +92,26 @@
           "email"
           "phone"
           "message";
+      }
+    }
+
+    &-b {
+      .contact-info div {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px dotted $light-color;
+
+        &:last-child {
+          border-bottom: none;
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    &-c {
+      h1 {
+        font-size: 2rem;
       }
     }
   }
