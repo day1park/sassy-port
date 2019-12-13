@@ -76,6 +76,23 @@
           "aw3";
       }
     }
+
+    &-c {
+      display: none;
+    }
+  }
+
+  #contact {
+    &-a {
+      .text-fields {
+        grid-template-areas:
+          "name"
+          "subject"
+          "email"
+          "phone"
+          "message";
+      }
+    }
   }
 
   // footer
