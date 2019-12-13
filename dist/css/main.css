@@ -460,4 +460,10 @@ img {
     #header-home .header-content {
       display: none; }
   #header-inner {
-    height: 10rem; } }
+    height: 10rem; }
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials,
+  .items {
+    grid-template-columns: 1fr; } }

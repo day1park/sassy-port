@@ -35,4 +35,13 @@
       height: 10rem;
     }
   }
+
+  // stack grid columns
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials,
+  .items {
+    grid-template-columns: 1fr;
+  }
 }
