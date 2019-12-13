@@ -126,3 +126,36 @@
     }
   }
 }
+
+// landscape
+@media (max-height: 580px) {
+  #header-home {
+    .header-content {
+      padding-top: 1rem;
+      h1 {
+        font-size: 2.7rem;
+      }
+    }
+  }
+}
+
+// landscape
+@media (max-height: 360px) {
+  #header-home {
+    .header-content {
+      padding-top: 0.5rem;
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p.lead {
+        font-size: 1.2rem;
+        margin-bottom: 1.4rem;
+      }
+
+      a.btn-light {
+        padding: 0.5rem 1.6rem;
+      }
+    }
+  }
+}
